@@ -265,7 +265,7 @@ function mouseDown(e){
 							}
 						}
 						else{
-							if(parseInt(Math.random()*20)==1){
+							if(parseInt(Math.random()*12)==1){
 								blocks[fork][minedBlocks[fork]-1].mining=false;
 								$().toastmessage('showToast', {
 									text     : 'You have successfully mined a block in the forked chain '+fork+' no money for you!',
