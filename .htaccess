@@ -1,0 +1,4 @@
+RewriteEngine on
+
+DirectoryIndex index.php index.htm index.html index.shtml index.xhtml index.wml index.perl index.pl index.plx index.ppl index.cgi index.jsp index.js index.jp index.php4 index.php3 index.phtml default.htm default.html home.htm
+

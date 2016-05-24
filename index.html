@@ -1,0 +1,30 @@
+<html>
+<head>
+<title>Proofcha.in</title>
+<link rel="icon" type="image/png" href="/favicon.png" />
+
+<script src="javascript/jquery-1.12.3.min.js"></script>
+<script src="javascript/jquery.prompt.js"></script>
+<script src="javascript/jquery.toastmessage.js"></script>
+<script src="javascript/logic.js"></script>
+
+<link rel="stylesheet" href="resources/css/jquery.prompt.css"/>
+<link rel="stylesheet" href="resources/css/jquery.toastmessage.css"/>
+<link rel="stylesheet" href="resources/css/main.css"/>
+
+</head>
+<body onload="go();">
+<center><div class="logo"><img src="logo.png"></div></center>
+<br>
+<canvas id="cv" width = "1000" height="750"></canvas>
+<p> </p>    
+<form>
+    <input type="text" id="orphaned_chains" value="0"/> 
+    <input type="text" id="main_chain" value="0"/>
+    <input type="text" id="money" value="0"/>
+    <a href="#/" onclick="buyElectricity();"><img src="resources/images/buy.png"></a>
+    <input type="text" id="electricity" value="0"/>
+</form>
+<a href="#/" onclick="showHelp();"><img src="resources/images/notice.png"></a>
+</body>
+</html>
