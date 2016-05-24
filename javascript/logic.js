@@ -281,8 +281,8 @@ function mouseDown(e){
 					else{
 						startMining(fork);
 						$().toastmessage('showToast', {
-								text     : 'You started mining a block, click on the block when the color of the fork appears!',
-								stayTime : 2000,
+								text     : 'You started a new block, click on it repeatedly until you mine it!',
+								stayTime : 3000,
 								sticky   : false,
 								position : 'top-right',
 								type     : 'notice'
