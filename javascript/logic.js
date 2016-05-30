@@ -151,7 +151,7 @@ function loop() {
 								text     : 'Camera move!',
 								stayTime : 1000,
 								sticky   : false,
-								position : 'top-right',
+								position : 'top-center',
 								type     : 'notice'
 							});
 				}
@@ -163,7 +163,7 @@ function loop() {
 								text     : 'Camera move!',
 								stayTime : 1000,
 								sticky   : false,
-								position : 'top-right',
+								position : 'top-center',
 								type     : 'notice'
 							});
 				}
@@ -256,8 +256,9 @@ function mouseDown(e){
 								blocks[fork][minedBlocks[fork]-1].mining=false;
 								$().toastmessage('showToast', {
 												 text     : 'You have successfully mined a block in the Mainchain you earned lot of money!',
+												 stayTime : 5000,
 												 sticky   : false,
-												 position : 'top-right',
+												 position : 'top-left',
 												 type     : 'success'
 												 });
 								money+=salary*2;
@@ -269,8 +270,9 @@ function mouseDown(e){
 								blocks[fork][minedBlocks[fork]-1].mining=false;
 								$().toastmessage('showToast', {
 									text     : 'You have successfully mined a block in the forked chain '+fork+' no money for you!',
+									stayTime : 5000,
 									sticky   : false,
-									position : 'top-right',
+									position : 'top-left',
 									type     : 'success'
 								});
 								
@@ -282,7 +284,7 @@ function mouseDown(e){
 						startMining(fork);
 						$().toastmessage('showToast', {
 								text     : 'You started a new block, click on it repeatedly until you mine it!',
-								stayTime : 3000,
+								stayTime : 5000,
 								sticky   : false,
 								position : 'top-right',
 								type     : 'notice'
